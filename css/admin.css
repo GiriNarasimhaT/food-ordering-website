@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+.tbl-full{
+    width: 105%;
+    background-color: white;
+}
+
+.tbl-full tr th{
+    width: 1%;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    padding: 1%;
+    text-align: center;
+    background-color: #ff4757;
+    color: white;
+}
+
+.tbl-full tr td{
+    width: 0.5%;
+    text-align: center;
+    padding: 1%;
+    background-color: white;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+
+
+.tbl-30{
+    width: 50%;
+}
+
+.tbl-30 tr th{
+    width: 1%;
+    padding: 1%;
+    text-align: center;
+}
+
+.tbl-30 tr td{
+    padding: 1%;
+}
+
+
+
+.btn-primary{
+    background-color: #0287D0;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-primary:hover{
+    background-color: #3742fa;
+}
+
+.btn-secondary{
+    background-color: #0EAC51;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-secondary:hover{
+    background-color: #008C31;
+}
+
+.btn-danger{
+    background-color: #F75C4C;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-danger:hover{
+    background-color: #D73C2C;
+}
+
+.success{
+    color: #008C31;
+}
+
+.error{
+    color: #D73C2C;
+}
+
+/* CSS for Menu */
+.menu{
+    border-bottom: 1px solid grey;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ff6b81;
+}
+.menu ul li a:hover{
+    color: #ff4757;
+}
+
+
+
+/*CSS for Main Content */
+.main-content{
+    /*background-color: #cccccc;
+    background-image: repeating-linear-gradient(#83a4d4,#b6fbff);*/
+    background-color: #f1f2f6;
+    padding: 3% 0;
+}
+
+.col-4{
+    width: 20%;
+    background-color: white;
+    margin: 2%;
+    padding: 3%;
+    float: left;
+}
+
+
+float-center{
+    float: right;
+}
+
+
+
+
+/*CSS for Footer */
+.footer{
+    background-color: #ff4757;
+    color: white;
+}
+.footer a{
+    text-decoration: none;
+}
+
+/*CSS for login page*/
+.login{
+    border: 10px solid grey;
+    width: 20%;
+    margin: 10% auto;
+    padding: 2%;
+}
